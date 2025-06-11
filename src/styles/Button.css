@@ -1,0 +1,95 @@
+/* Button.css */
+.custom-button {
+  background-color: #0565f4; /* Initial background color */
+  border: none;
+  color: white;
+  padding: 13px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+  background-color: rgb(35, 90, 242) !important;
+  color: rgb(252, 199, 93) !important;
+}
+
+@media (max-width: 600px) {
+  .custom-button {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}
+
+/* App.css */
+.button-column {
+  display: -webkit-flex; /* Safari older versions */
+  display: flex; /* Standard for most modern browsers */
+  flex-direction: column;
+  gap: 10px;
+  max-width: 235px;
+  margin: 0 auto;
+  margin-top: 11%;
+    margin-left: 12%;
+    margin-right:0%;
+}
+.button-columnB {
+  display: -webkit-flex;    /* Safari older versions */
+  display: flex;            /* Standard for most modern browsers */
+  flex-direction: column;
+  gap: 10px;
+  max-width: 15px;
+  margin: 0 auto;
+  margin-top: 11%;
+  margin-left: 12%;
+  margin-right: 0%;
+}
+.button-column-photo {
+  display: -webkit-flex;
+  /* Safari older versions */
+  display: flex;  /* Standard for most modern browsers */
+   gap: 10px;
+  max-width: 215px;
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: -72%;
+  margin-right: 0%;
+}
+
+.custom-button:hover {
+  background-color: rgb(35, 90, 242) !important;
+  color: rgb(252, 199, 93) !important;
+}
+.custom-button:active {
+  background-color: rgb(35, 90, 242) !important;
+  color: rgb(252, 199, 93) !important;
+}
+.custom-button:focus {
+  background-color: rgb(35, 90, 242) !important;
+  color: rgb(252, 199, 93) !important;
+}
+.active-link {
+  font-weight: bold;
+  color: #0078D4; /* Highlight active link */
+  border-bottom: 2px solid #0078D4; /* Optional underline */
+}
+
+@media (max-width: 600px) {
+  .button-column {
+    margin-left: -8%;
+    max-width: 25%;
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 350px) {
+  .button-column {
+    margin-left: -8%;
+    max-width: 15%;
+    font-size: 0.55rem;
+  }
+}

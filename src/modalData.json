@@ -1,0 +1,29 @@
+{
+  "modalData": [
+    {
+      "imageSrc": "/sting3.png",
+      "title": "Stingray",
+      "url": "https://www.example.com"
+    },
+    {
+         "imageSrc": "/zrz.png",
+      "title": "Z06",
+      "url": "https://www.example.com"
+    },
+    {
+         "imageSrc": "/zrz.png",
+      "title": "E-Ray",
+      "url": "https://www.example.com"
+    },
+    {
+       "imageSrc": "/zr4.png",
+      "title": "ZR1",
+      "url": "https://www.example.com"
+    },
+    {
+       "imageSrc": "/check.png",
+      "title": "Checkered-Flag.Com",
+      "url": "https://www.example.com"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 4px;
+  padding: 1px;
+  margin-top: -5%;
+}
+
+.card {
+  max-width: 105%;
+  max-height: 255%;
+  margin-right: -35%;
+  margin-bottom: 25%;
+  margin-top: 2%;
+  gap: 15px;
+  border: 0.5px solid #5b5555;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(165, 149, 149, 0.1);
+  overflow: hidden;
+  background-color: #f10707;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.25);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  width: 40%;
+  height: 45px;
+  object-fit: contain;
+  border-bottom: -14px solid #da9191;
+  margin-top: 18px;
+  margin-bottom: 20%;
+}
+
+.card-title {
+  font-size: 1.1em;
+  margin-bottom: -20px;
+  color: #391db6;
+  font-weight: 700;
+  background-color: #da9191;
+}
+
+.card-link {
+    display: -webkit-flex; /* Safari older versions */
+  display: flex; /* Standard for most modern browsers */
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #eff1f4;
+  font-weight: 500;
+  font-size: 1.0rem;
+  margin-top: -5%;
+  margin-bottom: -5%;
+  background-color: #f10707;
+}
+
+.card-link:hover {
+  transform: scale(1.0);
+  text-decoration: underline;
+}
+
+
+/* Styling for 768px screen */
+@media (max-width: 768px) {
+  .container {
+    width: 768px;
+    margin: auto;
+    background-color: #ddd;
+  }
+}
+
+/* Styling for 350px screen */
+@media (max-width: 350px) {
+  .container {
+    width: 350px;
+    background-color: #ccc;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}

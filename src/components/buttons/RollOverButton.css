@@ -1,0 +1,46 @@
+/* HorizontalButtons.css */
+.horizontal-buttons {
+    display: -webkit-flex; /* Safari older versions */
+  display: flex; /* Standard for most modern browsers */
+  gap: 10px;
+  padding: 20px;
+}
+
+.roll-over-container {
+    display: -webkit-flex; /* Safari older versions */
+  display: flex; /* Standard for most modern browsers */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.roll-over-button {
+    display: -webkit-flex; /* Safari older versions */
+  display: flex; /* Standard for most modern browsers */
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.roll-over-button:hover {
+  background-color: #005f6b;
+}
+
+.button-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.roll-over-image {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}

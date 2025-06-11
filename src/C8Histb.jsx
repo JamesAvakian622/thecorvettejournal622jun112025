@@ -1,0 +1,444 @@
+import React from "react";
+import "./styles/Page.css";
+import { Link } from "react-router-dom";
+import Footer from "./Footer";
+import CarouselSting from "./Stingray/CarouselSting";
+//import ThemeSwitcher from "../ThemeSwitcher";
+import OnPageSting from "./Stingray/OnPageSting";
+import CarouselFlag from "./Stingray/CarouselFlag";
+import SidebarSting1 from "./Stingray/SidebarSting1";
+import SidebarStingB from "./Stingray/SidebarStingB";
+export default function C8Histb() {
+  return (
+    <>
+      <div className="rowPage">
+        <CarouselSting />
+        <div className="col-3 ">
+          <SidebarSting1 />
+        </div>
+
+        <div className="col-6">
+          <div className="center">
+            {/*
+        <HorizontalButtons />
+        <ButtonGridExtSting />
+        <ButtonRacingStipesSting />
+        <ButtonGridWheels /> */}
+            <h1>
+              <h2>
+                <b> Seventy Years Of Corvette Engineers</b>
+              </h2>
+            </h1>
+            <h2>
+              <h2>
+                <b>C1 Though C8 Generations</b>
+              </h2>
+            </h2>
+            <h2>
+              <h2>
+                <b>From Zora to Juecther</b>
+              </h2>
+            </h2>
+            <h3>
+              <h2>
+                <b> How the Corvette Became Americas National Sports Car </b>
+              </h2>
+
+            </h3>
+          </div>
+
+          <h2>  <b>  Corvette Chief Engineer, Over The Years     </b>     </h2>
+
+
+          <p>
+            <p>
+              Here are the chief engineers for the Corvette from C1 to C8:
+            </p>
+            <p>C1 (1953-1962):</p>
+            <p>C2 (1963-1967): Zora Arkus-Duntov</p>
+            <p>
+              C3 (1968-1982): Zora Arkus-Duntov (until 1975), followed by Dave
+              McLellan
+            </p>
+            <p>C4 (1984-1996): Dave McLellan</p>
+            <p>C5 (1997-2004): Dave Hill</p>
+            <p>
+              C6 (2005-2013): Tom Wallace (until 2008), followed by Tadge
+              Juechter
+            </p>
+            <p>C7 (2014-2019): Tadge Juechter</p>
+            <p>
+              C8 (2020-present): Tadge Juechter (until 2024), followed by Josh
+              Holder
+            </p>
+          </p>
+          <br />
+
+
+
+          <h2>  <b>    Zora Arkus-Duntov, Chief Engineer   "Father Of The Corvette"    ( Twenty-Nine Years )   </b>   </h2>
+
+          <p>
+            Zora Arkus-Duntov, often called the "Father of the Corvette," was a brilliant engineer who played a pivotal role in transforming the Chevrolet
+            Corvette into a true high-performance sports car. Born in Belgium in 1909 to Russian parents, he later moved to the U.S., where he joined
+            General Motors in 1953. His vision led to innovations like fuel injection, independent rear suspension, and the push for a mid-engine Corvette—an
+            idea that finally became reality decades later.
+
+            Zora Arkus-Duntov officially served as Corvette’s chief engineer from 1967 to 1975. His legacy is deeply embedded in Corvette history,
+            and his contributions helped shape the car into an American icon.
+
+            His influence shaped Corvette’s identity as a true sports car, and his legacy continues to inspire modern Corvette engineering.
+
+            His final resting place is
+            fittingly at the National Corvette Museum
+          </p>
+
+
+
+
+
+          <h2>  <b>  Dave McLellan, Chief Engineer    ( Tweleve Years )    </b>   </h2>
+
+          <p>   Dave McLellan succeeded Zora Arkus-Duntov as Corvette's chief engineer in 1975, taking on the challenge of refining
+            the Corvette during a time of tightening emissions regulations and evolving automotive technology. He played a crucial
+            role in developing the C4 Corvette, which introduced advanced aerodynamics, weight-saving techniques, and electronic systems2. </p>
+          <p>
+            McLellan was inStumental in Corvette's endurance racing success, overseeing programs that led to dominant
+            performances in SCCA competitions. His leadership also paved the way for the ZR-1, Corvette's first overhead cam
+            engine model, which debuted at the 1989 Geneva Auto Show. His influence extended beyond engineering—he helped shape
+            Corvette's identity as a world-class performance car.   </p>
+
+          <h2>  <b>  Dave Hill, Chief Engineer    ( Seven Years )    </b>   </h2>
+
+          <p>  Dave Hill was Corvette's third chief engineer, succeeding Dave McLellan in 1992. He played a crucial role in developing the C5 and C6 generations,
+            ensuring Corvette remained a world-class sports car.
+            Under his leadership, the C5 Corvette introduced a completely new chassis and suspension, improving handling and performance. He also oversaw the
+            development of the C5 Z06, reviving the legendary RPO code with a lightweight, high-performance variant.</p>
+          <p>
+            Hill continued refining Corvette with the C6 generation, which brought sharper styling, improved aerodynamics, and the introduction of the C6 Z06,
+            featuring an aluminum frame and the powerful 7.0L LS7 engine. His tenure solidified Corvette’s reputation as a serious competitor against European sports cars.  </p>
+
+          <h2>  <b>    Tom Wallace, Chief Engineer     ( Eight Years )   </b>   </h2>
+
+          <p>  Tom Wallace served as Corvette's fourth chief engineer from 2005 to 2008, bringing a racer's mentality to the program. Unlike his predecessors, Wallace had extensive racing experience, competing in events like the 24 Hours of Daytona and 12 Hours of Sebring. His leadership emphasized performance and track capability, which culminated in the development of the 2009 Corvette Sting, a 638-horsepower supercar capable of over 200 mph.
+            Wallace also fostered a collaborative environment, bringing together engineering, design, Vehicle Assembly, and marketing teams to refine Corvette’s identity. His tenure was relatively short, but his influence helped shape Corvette’s high-performance direction.  </p>
+
+          <h2>  <b>    Tadge Juechter, "Father Of The Corvette"    ( 47 Years as Chief Engineer)  </b>   </h2>
+
+          <p>   Tadge Juechter has been a defining force in Corvette’s modern era. He became Corvette’s fifth chief engineer in 2006, leading the development of the
+            C7 and C8 generations. His most groundbreaking achievement was the mid-engine C8 Corvette, fulfilling a vision first championed by Zora Arkus-Duntov decades
+            earlier.</p><p>
+            Juechter’s tenure saw Corvette evolve into a true global competitor, with models like the C7 Z06 and C8 Z06 earning critical acclaim. After
+            47 years at GM, he announced his retirement in 2024, marking the end of an era. His leadership ensured Corvette remained at the forefront of
+            performance and innovation.   </p>
+
+
+
+
+          <h2>   The C1 Corvette Generation:            </h2>
+
+          <p>
+            <div className="hist1">
+              <img src="c1logo.png" alt="sss"></img>
+            </div>
+
+            <div className="hist">
+              <img src="c1hist.png" alt="sss"></img>
+            </div>
+            <Link src=" http://www. TheCorvetteJournal.Com " alt="  ">
+              <h2>
+                <b> The C1 Corvette, Genration (1953-1962) </b>
+              </h2>
+            </Link>
+          </p>
+          <br />
+          <h2>
+            <b> Fiberglass Body </b>
+          </h2>
+          The 1953 Corvette was one of the first production cars to use a
+          fiberglass body, significantly reducing weight and influencing
+          future lightweight materials.
+          <h2>
+            <b> Fuel Injection </b>
+          </h2>
+          <p>
+            In 1957, the Corvette introduced mechanical fuel injection,
+            enhancing performance and fuel efficiency.
+          </p>
+          <br /> <br />
+          <br />
+          <p>
+            <div className="hist1">
+              <img src="c2logo.png" alt="sss"></img>
+            </div>
+
+            <div className="hist">
+              <img src="c2hist.png" alt="sss"></img>
+            </div>
+            <Link src=" http://www. TheCorvetteWeb.Com " alt="  ">
+              <h2>
+                <b>The C2 Corvette, Genration (1963-1967)</b>
+              </h2>
+            </Link>
+          </p>
+          <br />
+
+          <p>
+            The C2 Generation was known as the Sting Ray, this generation
+            introduced the split rear window (1963) and a more aggressive,
+            sporty look. Featured independent rear suspension for better
+            handling.
+          </p>
+          <br /> <br />
+          <br />
+          <p>
+            <div className="hist1">
+              <img src="c3logo.png" alt="sss"></img>
+            </div>
+            <div className="hist">
+              <img src="c3hist.png" alt="sss"></img>
+            </div>
+            <Link src=" http://www. TheCorvetteWeb.Com " alt="  ">
+              <h2>
+                <b>The C3 Corvette, Genration (1968-1982)</b>
+              </h2>
+            </Link>
+          </p>
+          <br /> <br />
+          <br />
+          <p>
+            The longest-running Corvette generation, the C3, marked by its
+            sleek, "Coke bottle" design and removable T-tops. These models saw
+            the introduction of big-block engines and significant power
+            improvements.
+          </p>
+          <br /> <br />
+          <br />
+          <p>
+            <div className="hist1">
+              <img src="c4logo.png" alt="sss"></img>
+            </div>
+            <div className="hist">
+              <img src="c4hist.png" alt="sss"></img>
+            </div>
+            <Link src=" http://www. TheCorvetteWeb.Com " alt="  ">
+              <h2>
+                <b> The C4 Corvette, Genration (1984-1996) </b>
+              </h2>
+            </Link>
+            Aerodynamic Design (C4) The C4 generation focused heavily on
+            aerodynamics, with a sleek body design and reduced drag
+            coefficient, paving the way for future sports car designs. Digital
+            InStumentation (C4) The C4 Corvette introduced digital dashboards
+            and inStumentation, integrating advanced electronics and
+            enhancing driver experience.
+          </p>
+          <br /> <br />
+          <br />
+          <p>
+            This generation was more aerodynamic and modern, this generation
+            had a digital dashboard and was built with a focus on performance
+            and technology. Featured the ZR-1 performance package with the
+            Lotus-designed LT5 engine.
+          </p>
+          <br />
+          <p>
+            <div className="hist1">
+              <img src="c5logo.png" alt="sss"></img>
+            </div>
+            <div className="hist">
+              <img src="c5hist.png" alt="sss"></img>
+            </div>
+            <Link src=" http://www. TheCorvetteWeb.Com " alt="  ">
+              <h2>
+                <b> The C5 Corvette, Genration (1997-2004) </b>
+              </h2>
+            </Link>
+          </p>
+          <br /> <br />
+          <br />
+          <p>
+            Active Handling and Stability Control (C5) The C5 generation
+            incorporated active handling and stability control systems,
+            improving safety and performance during high-speed driving.
+            Magnetic Selective Ride Control (C5) Magnetic Ride Control,
+            introduced in the C5, offered real-time adjustments to the
+            suspension for a balance between comfort and performance. Heads-Up
+            Display (HUD) (C5) The C5 also brought heads-up display technology
+            to the market, projecting essential information onto the
+            windshield, allowing drivers to keep their eyes on the road. The
+            C5 introduced the LS1 V8 engine, which became a staple in
+            performance cars. Notable for its improved ride quality,
+            reliability, and ergonomics.
+          </p>
+          <br /> <br />
+          <br />
+          <p>
+            <div className="hist1">
+              <img src="c6logo.png" alt="sss"></img>
+            </div>
+            <div className="hist">
+              <img src="c6hist.png" alt="sss"></img>
+            </div>
+            <Link src=" http://www. TheCorvetteWeb.Com " alt="  ">
+              <h2>
+                <b> The C6 Corvette, Genration (2005-2013) </b>
+              </h2>
+            </Link>
+          </p>
+          <br /> <br />
+          <br />
+          <p>
+            Aluminum Frame and Carbon Fiber (C6) The C6 generation utilized
+            aluminum frames and carbon fiber components, reducing weight while
+            maintaining Stuctural integrity. The C6 was sleeker in design
+            with exposed headlamps and improved aerodynamics. Introduced the
+            Z06 and the supercharged Sting, pushing performance boundaries.
+          </p>
+          <br /> <br />
+          <br />
+          <p>
+            <div className="hist1">
+              <img src="c7logo.png" alt="sss"></img>
+            </div>
+            <div className="hist">
+              <img src="c7hist.png" alt="sss"></img>
+            </div>
+            <Link src=" http://www. TheCorvetteWeb.Com " alt="  ">
+              <h2>
+                <b> The C7 Corvette, Genration (2014-2019)</b>
+              </h2>
+            </Link>
+          </p>
+          <br /> <br />
+          <br />
+          <p>
+            Performance Data Recorder (C7) The C7 introduced the Performance
+            Data Recorder, allowing drivers to capture video and telemetry
+            data, enhancing driver analysis and track performance. The C7
+            generation sports car was a more aggressive, angular design with
+            advanced technology like the performance data recorder. Offered
+            the high-performance Z06 and Sting variants.
+          </p>
+          <br /> <br />
+          <br />
+          <p>
+            <div className="hist1">
+              <img src="c8logo.png" alt="sss"></img>
+            </div>
+            <div className="hist">
+              <img src="c8hist.png" alt="sss"></img>
+            </div>
+            <Link src=" http://www. TheCorvetteWeb.Com " alt="  ">
+              <h2>
+                <b> The C8 Corvette, Genration </b>
+              </h2>
+            </Link>
+          </p>
+          <br /> <br />
+          <br />
+          <p>
+            C8 (2020-Present) Mid-Engine Layout (C8) The revolutionary C8
+            Corvette shifted to a mid-engine layout, improving weight
+            diStibution, handling, and overall performance, setting a new
+            benchmark for sports cars. A revolutionary mid-engine layout,
+            shifting the weight diStibution for enhanced performance and
+            handling. Features a 6.2L V8 engine and offers a variety of
+            performance-oriented packages. Each generation has its own unique
+            charm and has pushed the boundaries of performance and design.
+            These technological innovations have not only made the Corvette a
+            formidable competitor but have also influenced the broader
+            automotive induSty, inspiring other manufacturers to adopt
+            similar advancements.
+          </p>
+          <br />
+
+          <br />
+
+
+
+          <p>
+            The Chevrolet Corvette has had a significant influence on sports
+            car design, shaping both aesthetics and engineering approaches.
+            Here are some ways it's left its mark:
+          </p>
+          <br />
+          <p>
+            <h2>
+              <b> Influences on Design and Aesthetics</b>
+            </h2>
+            <b>American Sports Car Identity: </b> The Corvette established
+            the identity of the American sports car, characterized by its
+            bold and distinctive design elements.
+            <b>Fiberglass ConStuction: </b> The introduction of fiberglass
+            bodies in the original C1 generation influenced other
+            manufacturers to explore lightweight materials for improved
+            performance and fuel efficiency.
+            <b>Split Window: </b> The 1963 split rear window of the C2 Sting
+            Ray became an iconic design feature, inspiring unique rear
+            designs in other cars.
+            <b>Aggressive Styling:</b> With each generation, the Corvette's
+            aggressive styling has influenced the design of performance
+            cars, emphasizing sharp lines, aerodynamic shapes, and muscular
+            stances.
+          </p>
+          <br /> <br />
+          <h2>
+            <b>Engineering and Performance Innovations</b>
+          </h2>
+          <b>Independent Rear Suspension: </b> The introduction of
+          independent rear suspension in the C2 Sting Ray improved handling
+          and performance, encouraging other manufacturers to adopt similar
+          technology.
+          <b>Big-Block Engines: </b> The powerful big-block engines of the
+          C3 era set benchmarks for performance, pushing competitors to
+          develop more powerful engines.
+          <b>Aerodynamics: </b> The C4 generation's focus on aerodynamics
+          and performance data collection influenced the induSty to
+          prioritize airflow and reduce drag.
+          <b>Advanced Materials: </b> The C5 and later generations' use of
+          advanced materials, such as aluminum and composites, set a
+          standard for lightweight conStuction in high-performance
+          vehicles.
+          <h2>
+            <b>Cultural Impact</b>
+          </h2>
+          <b>Pop Culture Icon:</b> The Corvette has featured prominently in
+          movies, TV shows, and songs, cementing its status as a symbol of
+          performance and freedom.
+          <b>Racing Legacy: </b>Its success in motorsports, including the 24
+          Hours of Le Mans, has demonStated its engineering prowess and
+          influenced the development of race cars. The Corvette's blend of
+          innovation, style, and performance has made it a trendsetter in
+          the world of sports cars, leaving a lasting legacy on automotive
+          design and engineering.
+
+          <br />
+
+
+          <br />
+          <br />
+          <h3>
+            <b> References </b>
+          </h3>
+          <Link to=" https://www.hagerty.com/media/car-profiles/six-decade-corvette-z06-odyssey/#:~:text=To%20draw%20potential%20competitors%2C%20Arkus,a%20regular%2Dproduction%2Doption.   " > Reference: 1. How Corvette Z06 Evolved LT6  </Link>
+          <Link to=" https://classicmotorsports.com/news/iso-grifo-the-italian-corvette/      " > 2. Classic Motorsports</Link>
+        
+
+  <Footer />
+        </div>
+
+
+
+
+          <div className="col-3 ">
+            <CarouselFlag />
+            {/*      <ThemeSwitcher /> */}
+            <OnPageSting />  <SidebarStingB />
+          </div>
+
+          
+      </div>
+    </>
+  );
+}

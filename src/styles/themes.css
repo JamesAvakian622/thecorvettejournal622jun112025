@@ -1,0 +1,11 @@
+/* src/themes.css */
+:root {
+    --background-color: rgb(28, 27, 27);
+    --text-color: black;
+  }
+  
+  [data-theme="dark"] {
+    --background-color: black;
+    --text-color: white;
+  }
+  

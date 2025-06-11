@@ -1,0 +1,44 @@
+.main {
+      display: -webkit-flex; /* Safari older versions */
+  display: flex; /* Standard for most modern browsers */
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8efef;
+}
+
+
+
+.card-rivals {
+    max-width: 105%;
+    max-height: 125%; 
+    box-shadow: 0 4px 6px rgba(65, 63, 63, 0.1);
+    overflow: hidden;
+    background-color: #f8f5f5;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    max-width: 250%;
+    height: auto;
+  
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 16px;
+    background-color: rgb(255, 254, 254);
+}
+
+.card-description {
+    font-size: 16px;
+    margin: 0 16px 16px 16px;
+    color: #0e0d0d;
+    background-color: rgb(255, 254, 254);
+}

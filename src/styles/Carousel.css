@@ -1,0 +1,119 @@
+.carousel {
+  display: -webkit-flex; /* Safari older versions */
+  display: flex; /* Standard for most modern browsers */
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(71, 69, 69);
+  z-index: 9;
+  height: 290%;
+  margin-left: -1%;
+  max-width: 100% !important;
+  max-height: 260% !important;
+  margin-top: -220px;
+  margin-bottom: 0px;
+  outline: none;
+  border: none;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 1000px) {
+  .carousel {
+    height: 90%;
+    max-width: 100% !important;
+    max-height: 130% !important;
+  }
+}
+@media (max-width: 750px) {
+  .carousel {
+    height: 80%;
+    max-width: 70% !important;
+    max-height: 90% !important;
+  }
+}
+@media (max-width: 350px) {
+  .carousel {
+    height: 70%;
+    max-width: 70% !important;
+    max-height: 90% !important;
+  }
+}
+
+.carousel button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.carousel button:hover {
+  background-color: #0056b3;
+}
+
+.carousel .slide img {
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.carouselFlag1 {
+  display: -webkit-flex; /* Safari older versions */
+  display: flex; /* Standard for most modern browsers */
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(4, 3, 3);
+  z-index: 9;
+  max-width: 100% !important;
+  width: 100%;
+  margin-left: 14%;
+  margin-top: 45px;
+}
+
+.carousel-image {
+  width: 75%, fit-content !important;
+  height: 75%, fit-content;
+}
+
+/* AFullCarousel.css */
+.carousel .slide img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel .control-arrow,
+.carousel .control-dots {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .carousel .control-arrow,
+  .carousel .control-dots {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel .control-arrow,
+  .carousel .control-dots {
+    display: block;
+  }
+}
+
+.carousel .control-arrow {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.carousel .control-dots {
+  margin-top: 10px;
+}
+
+.carousel .control-dots .dot {
+  background-color: #ccc;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+}

@@ -1,0 +1,68 @@
+/* Overall page styling */
+body {
+  background-color: #e31515; /* Black page background */
+  color: #fff; /* Optional: Default text color */
+}
+
+/* Accordion styling */
+.accordion {
+  border: 5px solid #ccc;
+  border-radius: 5px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+/* Individual accordion items */
+.accordion-item {
+  border: 2px solid #ffffff; /* White border for visibility */
+  margin: 10px 0;
+  transition: all 0.3s ease;
+  color: red;
+}
+
+/* Closed state header styling */
+.accordion-header {
+  background: #222; /* Dark background for closed headers */
+  cursor: pointer;
+  padding: 25px;
+  font-weight: bold;
+    display: -webkit-flex; /* Safari older versions */
+  display: flex; /* Standard for most modern browsers */
+  align-items: center;
+  justify-content: space-between;
+  font-size: 28px; /* Larger font size */
+  color: red; /* Text color for closed state */
+  border: 1px solid #fff; /* Visible border on header */
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Open state styling */
+.accordion-item.active .accordion-header {
+  background: #444; /* Slightly lighter background for open headers */
+  color: blue; /* Text color for open state */
+  border: 2px solid #fff; /* Enhanced border visibility */
+}
+
+/* Accordion indicators */
+.accordion-indicator {
+  margin-right: 10px;
+  font-size: 40px; /* Larger size for indicators */
+}
+
+/* Accordion content styling */
+.accordion-content {
+  padding: 15px;
+  background: #333; /* Dark background for content */
+  color: #fff; /* White text color for content */
+  border-top: 2px solid #fff; /* Visible border between header and content */
+  transition: max-height 0.3s ease;
+}
+
+.linecolor{
+background-color: rgb(18, 227, 84);
+}.custom-hr {
+  border: none; /* Remove default border */
+  height: 3px; /* Thickness of the line */
+  background-color: red; /* Color of the horizontal rule */
+  margin: 20px 0; /* Add space above and below */
+}
